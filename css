@@ -1,0 +1,49 @@
+/* input */
+.input{
+    width: 93%;
+    max-width: 93%;
+    margin:0;
+    display:block;
+    padding:10px 15px;
+    font-size:14px;
+    color:#555;
+    background-color:#fff;
+    background-image:none;
+    border:1px solid #ccc;
+    border-radius:2px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(110,110,110,.075);
+    box-shadow:inset 0 1px 1px rgba(110,110,110,.075);
+    -webkit-transition:border-color ease-in-out .2s,box-shadow ease-in-out 0.5s;
+    transition:border-color ease-in-out .2s,box-shadow ease-in-out 0.5s
+}
+.input:focus{
+    border-color: rgba(240,139,4,0.5);
+    outline:0;
+    -webkit-box-shadow:inset 0 1px 1px rgba(240,139,4,0.20),0 0 12px rgba(240,139,4,0.20);
+    box-shadow:inset 0 1px 1px rgba(240,139,4,0.10),0 0 12px rgba(240,139,4,0.10);	
+}
+.input::-webkit-input-placeholder{
+    color: hsla(240, 7%, 42%,0.7);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.inputButton{
+    //width: 30%;
+    margin:0;
+    display:block;
+    padding:5px 10px;
+    font-size:16px;
+    font-weight: 500;
+    font-family: ubuntu;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    color:#fff;
+    background: linear-gradient(#5ab057,#6BC079);
+    border:0px solid #ccc;
+    border-radius:2px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(110,110,110,.075);
+    box-shadow:inset 0 1px 1px rgba(110,110,110,.075);
+    -webkit-transition:border-color ease-in-out .2s,box-shadow ease-in-out 0.5s;
+    transition:border-color ease-in-out .2s,box-shadow ease-in-out 0.5s
+}
